@@ -1,0 +1,37 @@
+PATH
+  remote: .
+  specs:
+    guard-tddium (0.0.1)
+      guard
+      rake
+      tddium
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    guard (0.8.8)
+      thor (~> 0.14.6)
+    highline (1.6.8)
+    httparty (0.8.1)
+      multi_json
+      multi_xml
+    json (1.6.3)
+    multi_json (1.0.4)
+    multi_xml (0.4.1)
+    rake (0.9.2.2)
+    tddium (1.0.1)
+      bundler
+      highline
+      json
+      tddium_client (~> 0.1.1)
+      thor
+    tddium_client (0.1.2)
+      httparty
+      json
+    thor (0.14.6)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  guard-tddium!

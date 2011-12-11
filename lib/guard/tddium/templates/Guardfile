@@ -1,0 +1,5 @@
+guard 'tddium' do 
+  watch(%r{^spec/.+_spec\.rb$})
+  watch(%r{^test/.+_test\.rb$})
+  watch(%r{^features/.+_feature\.rb$})
+end
