@@ -9,6 +9,8 @@ module Guard
     autoload :Runner,   'guard/tddium/runner'
     autoload :Notifier, 'guard/tddium/notifier'
 
+    attr_reader :runner
+
     def initialize(watchers = [], options = {})
       super
 

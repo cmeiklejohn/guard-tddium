@@ -1,5 +1,5 @@
 # encoding: utf-8
-#
+
 module Guard
   class Tddium
     class Runner
