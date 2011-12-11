@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    guard-tddium (0.0.1)
+    guard-tddium (0.0.1.beta1)
       guard
       rake
       tddium
