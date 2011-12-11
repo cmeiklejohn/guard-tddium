@@ -4,7 +4,7 @@ $:.push File.expand_path("../lib", __FILE__)
 
 Gem::Specification.new do |s|
   s.name        = "guard-tddium"
-  s.version     = "0.0.1.beta2"
+  s.version     = "0.0.1.beta3"
   s.authors     = ["Christopher Meiklejohn"]
   s.email       = ["cmeiklejohn@criticalpair.com"]
   s.homepage    = "https://github.com/criticalpair/guard-tddium"
