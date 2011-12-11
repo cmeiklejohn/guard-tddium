@@ -1,7 +1,7 @@
 Guard-TDDium
 ===============
 
-Run your specs with tddium through guard.
+Run your specs with tddium through guard whenever files are committed.
 
 Usage 
 =====
@@ -16,6 +16,17 @@ Setup:
 
 ```bash
 guard init tddium
+```
+
+Requirements
+============
+
+One of the following three:
+
+```ruby
+  gem 'rb-inotify'
+  gem 'rb-fsevent'
+  gem 'rb-fchange'
 ```
 
 License
